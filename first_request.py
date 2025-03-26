@@ -14,7 +14,7 @@ My question is: What is the fastest animal on Earth?
 
 print("Asking DuckGPT...")
 duck_response = CLIENT.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-4o-mini",
     messages=[
         {"role": "user", "content": duck_instructions}
     ]
