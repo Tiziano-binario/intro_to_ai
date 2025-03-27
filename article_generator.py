@@ -75,7 +75,7 @@ Image Prompt:
 
 print("Getting prompt for image generation...")
 image_prompt_response = CLIENT.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-4o-mini",
     messages=[
         {"role": "user", "content": create_image_description_instructions}
     ]
